@@ -2,146 +2,132 @@
 
 # PureAuth
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=22&pause=1000&color=20D6C7&center=true&vCenter=true&width=650&height=40&lines=Authentication+Infrastructure+for+Modern+Software;Secure+Authentication+%26+Licensing;Built+for+Developers" alt="PureAuth tagline" />
+### Authentication infrastructure for modern software.
+
+Secure authentication, licensing, user management, and
+device control — built for developers.
 
 <p>
   <a href="https://auth.purexit.online/">
-    <img src="https://img.shields.io/badge/Website-PureAuth-20D6C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
+    <img src="https://img.shields.io/badge/Website-20D6C7?style=for-the-badge&logo=googlechrome&logoColor=white">
   </a>
   <a href="https://discord.gg/v7vH2AyGfW">
-    <img src="https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
   </a>
-  <img src="https://img.shields.io/badge/Status-In%20Development-F59E0B?style=for-the-badge" alt="Development Status" />
-</p>
-
-<p>
-  <strong>Secure authentication, licensing, and access management for modern applications.</strong>
+  <img src="https://img.shields.io/badge/Status-In%20Development-F59E0B?style=for-the-badge">
 </p>
 
 </div>
 
 ---
 
-### Contents
+## What is PureAuth?
 
-* [Features](#features)
-* [Client SDKs](#client-sdks)
-* [Developer Tools](#developer-tools)
-* [Platform Status](#platform-status)
-* [Connect](#connect)
+PureAuth is a developer-focused authentication and licensing
+platform designed to make application security simple.
 
----
-
-## Features
-
-* **Authentication** — Secure user authentication and session management.
-* **License Management** — Create, activate, expire, revoke, and manage licenses.
-* **User Management** — Manage users, permissions, subscriptions, and account access.
-* **Device & HWID Controls** — Bind and manage authorized devices.
-* **Developer API** — Integrate PureAuth directly into your own applications.
-* **Webhooks** — Connect authentication events with your own services.
-* **Application Management** — Manage multiple applications from one dashboard.
-* **Audit Logs** — Keep track of important authentication and account activity.
-* **Subscriptions** — Manage plans, expiration dates, and access levels.
-* **Security Controls** — Rate limiting, session controls, and abuse prevention.
+Manage applications, users, licenses, devices, sessions and
+access from a single platform.
 
 ---
 
-## Client SDKs
+## Platform
 
-PureAuth is being built with developers in mind, providing simple integration across popular languages.
+<table>
+<tr>
+<td width="50%">
 
-<div align="center">
+### Authentication
 
-|    Language    |       Status      |
-| :------------: | :---------------: |
-|     **C++**    | 🟡 In Development |
-|     **C#**     | 🟡 In Development |
-|   **Python**   | 🟡 In Development |
-| **JavaScript** |     ⚪ Planned     |
-|     **Go**     |     ⚪ Planned     |
-|    **Rust**    |     ⚪ Planned     |
+Secure application authentication,
+sessions and account management.
 
-</div>
+</td>
+<td width="50%">
 
-> SDK repositories will be published as they become ready.
+### Licensing
+
+Create, activate, expire and revoke
+licenses with flexible controls.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### Device Control
+
+HWID binding and device management
+for authorized users.
+
+</td>
+<td width="50%">
+
+### Developer API
+
+Integrate PureAuth directly into
+your application using our API.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### Application Management
+
+Manage multiple applications from
+one centralized dashboard.
+
+</td>
+<td width="50%">
+
+### Security
+
+Sessions, rate limits, bans, logs
+and abuse prevention.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Developer Tools
+## Developer Experience
+
+Built to integrate into the software
+you already use.
+
+| Language | Status |
+|:---:|:---:|
+| C++ | 🟡 In Development |
+| C# | 🟡 In Development |
+| Python | 🟡 In Development |
+| JavaScript | ⚪ Planned |
+| Go | ⚪ Planned |
+| Rust | ⚪ Planned |
+
+More SDKs will be released as PureAuth develops.
+
+---
+
+## How It Works
 
 ```text
-Application
-     │
-     ▼
- PureAuth API
-     │
-     ├── Authentication
-     ├── License Validation
-     ├── User Management
-     ├── Device Binding
-     └── Session Management
-              │
-              ▼
         Your Application
-```
-
-### Simple Integration
-
-```cpp
-PureAuth auth(APP_ID, APP_SECRET);
-
-auto session = auth.login(username, password);
-
-if (session.success) {
-    // User authenticated
-}
-```
-
----
-
-## Platform Status
-
-<div align="center">
-
-| Service        |     Status    |
-| :------------- | :-----------: |
-| Authentication |  🟡 Building  |
-| Licensing      |  🟡 Building  |
-| Developer API  |  🟡 Building  |
-| Dashboard      |  🟡 Building  |
-| SDKs           |  🟡 Building  |
-| Documentation  |  🟡 Building  |
-| Public Launch  | ⚪ Coming Soon |
-
-</div>
-
-PureAuth is currently under active development. More features, SDKs, documentation, and public releases will be announced as development progresses.
-
----
-
-## Connect
-
-<div align="center">
-
-<a href="https://auth.purexit.online/">
-<img src="https://img.shields.io/badge/Website-20D6C7?style=for-the-badge&logo=googlechrome&logoColor=white" />
-</a>
-
-<a href="https://discord.gg/v7vH2AyGfW">
-<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-**PureAuth**
-
-*Authentication infrastructure for modern software.*
-
-Built with security, simplicity, and developers in mind.
-
-</div>
+               │
+               ▼
+        ┌─────────────┐
+        │  PureAuth   │
+        │     API     │
+        └──────┬──────┘
+               │
+       ┌───────┼────────┐
+       ▼       ▼        ▼
+   Auth     License   Device
+   Check    Check     Check
+       │       │        │
+       └───────┼────────┘
+               ▼
+          Access Granted
